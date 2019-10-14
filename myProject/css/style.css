@@ -1,0 +1,15 @@
+body {
+    background-color: darkgray;
+}
+.section {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #7ba27c;
+}
+h2 {
+    color: rgb(45, 55, 78);
+    text-shadow: 2px 2px 3px white;
+}
+#ln-label {
+    margin-left: 150px;
+}
