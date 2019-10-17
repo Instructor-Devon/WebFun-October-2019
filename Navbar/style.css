@@ -1,0 +1,21 @@
+nav {
+    background-color: dodgerblue;
+    border-radius: 5px;
+    box-shadow: 2px 2px #050505;
+    padding: 10px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin-right: 10px;
+}

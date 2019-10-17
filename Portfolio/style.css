@@ -1,0 +1,107 @@
+/* * {
+    outline: 1px dotted red;
+} */
+#wrapper {
+    width: 970px;
+    height: 1029px;
+    margin: 0 auto;
+}
+                                                                /* HEADER */
+#header {
+    padding: 10px 0 0 10px;
+}
+#header, #footer {
+    height: 80px;
+    /* background-color: green; */
+}
+#header h1, #header h2, #header div {
+    display: inline-block;
+}
+#header h1 {
+    margin: 0;
+}
+#header h2 {
+    margin-left: 450px;
+}
+                                                                /* MAIN CONTENT */
+#main-content {
+    height: 888px;
+    background-color: #996176;
+}
+                                                                /* INFO */
+.info {
+    display: inline-block;
+    background-image: linear-gradient(to right, white , #d98aa8);
+}
+.info > h2, .projects h3 {
+    background-color: darkgray;
+    margin: 0;
+    padding: 10px;
+    color: white;
+}
+#mc-top > img {
+    height: 100%;
+    vertical-align: top;
+}
+#mc-top div {
+    width: 480px;
+    height: 100%;
+}
+#mc-top {
+    height: 290px;
+    padding: 20px;
+}
+#mc-bottom {
+    padding: 20px;
+}
+.projects {
+    width: 300px;
+    height: 540px;
+    vertical-align: top;
+}
+.projects > img {
+    width: 100%;
+}
+.tech-imgs > img {
+    width: 45px;
+    margin: 5px;
+}
+.projects p {
+    margin: 0;
+    height: 120px;
+    padding: 5px;
+}
+.projects button {
+    margin: 0 auto;
+    background-color: green;
+    border: 1px solid black;
+    box-shadow: 1px 1px black;
+    color: white;
+    border-radius: 5px;
+    display: block;
+}
+#footer {
+    text-align: center;
+}
+#contact {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#contact p {
+    margin: 0;
+}
+#contact img {
+    width: 20px;
+}
+#contact div, #contact a, #contact li {
+    vertical-align: top;
+    display: inline-block;
+}
+#footer a, #footer p {
+    font-family: sans-serif;
+}
+#contact a {
+    color: black;
+    font-style: italic;
+}
